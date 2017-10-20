@@ -377,7 +377,7 @@ use4andor6() {
   do
     case ${choice} in
     IPv4  )   useIPv4=true;;
-    IPv6  )   useIPv6=false;;
+    IPv6  )   useIPv6=true;;
     esac
   done
   if [[ ${useIPv4} ]]; then
